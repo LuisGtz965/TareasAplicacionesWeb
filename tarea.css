@@ -1,0 +1,18 @@
+.texto-header {
+    text-align: center;
+    color:red;
+    }
+    .contenedor{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+    background-color: white;
+    border: 1px solid black;
+    }
+    .fondo{
+    background-image:url(https://cdn.magicdecor.in/com/2023/11/18145253/Abstract-Watercolor-Teal-Blue-Color-Grunge-Texture-Wallpaper-for-Wall-M.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    }
