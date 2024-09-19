@@ -1,0 +1,27 @@
+.texto-header {
+text-align: center;
+color:red;
+}
+.imagen-perfil{
+border: 3px solid;
+}
+.texto-largo{
+ display: flex;
+ width: 45px;
+ margin: flex;
+ padding: 20px;
+}
+.contenedor{ 
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+    background-color: white;
+    border: 1px solid black;
+    }
+    .fondo{
+    background-image:url(https://img.freepik.com/vector-gratis/resumen-diseno-moderno-degradado-fondo-color-rojo_343694-2153.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    }
