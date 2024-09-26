@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="./Styles/main.css"/>
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AplicacionListaDeTareas</title>
+    <h1 class="texto-header">Aplicacion de lista de tareas</h1>
+</head>
+<body  class= "fondo">
+    <div class= "contenedor">
+        <label for="textbox"></label>
+        <input type="text" id="textbox" name="textbox">
+        <button type="button">Enviar</button>
+
+    </div>
+    <div class="contenedor-doble">
+      <input
+        id="input-nombre-tarea"
+        class="input-tarea"
+        placeholder="Nombre de la tarea"
+      />
+      <input
+        id="input-fecha-tarea"
+        class="input-tarea"
+        placeholder="Fecha de entrega"
+        type="date"
+      />
+      <!--TODO Cambiar foto de perfil-->
+      <button id="boton-agregar-01" class="boton-agregar">Agregar</button>
+    </div>
+  <footer>
+    <div class = "footer">
+    <h2>Informacion del autor</h2>
+    <p><b>Nombre del autor:</b>Luis Carlos Gutierrez Ramos</p>
+      <p><b>Institución:</b>Universidad Tecnológica de Chihuahua</p>
+        <p><b>Correo electrónico:</b>luisitogr05@gmail</p>
+        <p><b>Fecha:</b>17/09/2024</p>
+        <p><b>Asignatura:</b>Aplicaciones web</p>
+        <p><b>Título del trabajo:</b>Aplicacion lista de tareas</p>
+    </div>
+  </footer>
+  <br />
+  <ul id="tareas-por-hacer" class="lista-tareas"></ul>
+</body>
+<script src="./lista.js"></script>
+</html>
